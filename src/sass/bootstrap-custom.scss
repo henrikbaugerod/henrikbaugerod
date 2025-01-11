@@ -1,0 +1,11 @@
+@use "sass:color";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+$font-family-sans-serif: "Rubik", serif;
+
+$primary: #0a4db3;
+$secondary: #3b24c0;
+
+$btn-secondary-bg: #ffffff;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
