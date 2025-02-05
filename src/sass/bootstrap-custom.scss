@@ -5,7 +5,11 @@ $font-family-sans-serif: "Rubik", serif;
 
 $primary: #0a4db3;
 $secondary: #3b24c0;
+$light: #f3f3f3;
 
 $btn-secondary-bg: #ffffff;
+
+$input-padding-x: 0;
+$input-color: #555555;
 
 @import '../../node_modules/bootstrap/scss/bootstrap';

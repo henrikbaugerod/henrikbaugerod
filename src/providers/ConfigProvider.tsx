@@ -23,13 +23,13 @@ const ConfigProvider = ({ children }: { children: ReactNode }) => {
     const [websites, setWebsites] = useState<WebsiteType[] | null>(null);
 
     const fetchData = async () => {
-        const response = await fetch("portfolio.json");
+        const response = await fetch("/portfolio.json");
         const data = await response.json();
         setWebsites(data.websites);
     }
 
     useEffect(() => {
-        fetchData()
+        //fetchData()
     }, []);
 
     return (

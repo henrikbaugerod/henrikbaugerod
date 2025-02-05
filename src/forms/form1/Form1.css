@@ -1,0 +1,45 @@
+#root::after {
+    background: none !important;
+}
+
+
+/* Forms */
+.form-background {
+    background-color: white;
+    background: #e4edf2 url(../../assets/pattern_3.svg) no-repeat center right;
+    background-size: cover;
+}
+
+.form-background>* {
+    z-index: 10;
+}
+
+.bg-darkblue {
+    background-color: #021B79;
+}
+
+.steps-item {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.steps-item-active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 2px solid #e8ebed !important;
+    border-radius: 0 !important;
+    padding-left: 0.15rem !important;
+}
+
+.main-form-background {
+    
+}

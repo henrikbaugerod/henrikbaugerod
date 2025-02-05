@@ -1,0 +1,125 @@
+{
+    "title": "Form1",
+    "introtext": "This is a simple form",
+    "sections": [
+        {
+            "title": "Registration",
+            "url": "registration",
+            "icon": "user",
+            "introtext": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum metus nec risus scelerisque, eget ultrices odio viverra.",
+            "forms": [
+                {
+                    "title": "Personal info",
+                    "url": "personal-info",
+                    "description": "This is a description",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "label": "First name",
+                            "name": "first_name",
+                            "placeholder": "This is a placeholder",
+                            "display": "col-lg-6",
+                            "rules": {
+                                "min": 3,
+                                "max": 50,
+                                "required": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Last name",
+                            "name": "last_name",
+                            "placeholder": "This is a placeholder",
+                            "display": "col-lg-6",
+                            "rules": {
+                                "min": 3,
+                                "max": 50,
+                                "required": true
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Your email",
+                            "name": "email",
+                            "placeholder": "This is a placeholder",
+                            "display": "col-lg-6",
+                            "rules": {
+                                "min": 3,
+                                "max": 50,
+                                "required": true,
+                                "type": "email"
+                            }
+                        },
+                        {
+                            "type": "inputmask",
+                            "label": "Your phone",
+                            "name": "phone",
+                            "placeholder": "This is a placeholder",
+                            "format": "## ## ## ##",
+                            "display": "col-lg-6",
+                            "rules": {
+                                "length": 8,
+                                "required": true,
+                                "type": "number"
+                            }
+                        },
+                        {
+                            "type": "text",
+                            "label": "Age",
+                            "name": "age",
+                            "placeholder": "This is a placeholder",
+                            "display": "col-lg-6",
+                            "rules": {}
+                        },
+                        {
+                            "type": "radio",
+                            "label": "Age",
+                            "name": "age",
+                            "placeholder": "This is a placeholder",
+                            "display": "col-lg-6",
+                            "options": [
+                                {
+                                    "value": "male",
+                                    "label": "Male"
+                                },
+                                {
+                                    "value": "female",
+                                    "label": "Female"
+                                }
+                            ],
+                            "rules": {}
+                        }
+                    ]
+                },
+                {
+                    "title": "Address",
+                    "url": "address",
+                    "description": "This is a description",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "label": "Address",
+                            "name": "address",
+                            "placeholder": "This is a placeholder",
+                            "rules": {}
+                        }
+                    ]
+                },
+                {
+                    "title": "Message",
+                    "url": "message",
+                    "description": "This is a description",
+                    "elements": [
+                        {
+                            "type": "textarea",
+                            "label": "Message",
+                            "name": "message",
+                            "placeholder": "This is a placeholder",
+                            "rules": {}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
